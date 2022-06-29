@@ -1,4 +1,4 @@
-# Released under MIT License
+# Lanyon
 
 Copyright (c) 2014 Mark Otto.
 
