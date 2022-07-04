@@ -4,7 +4,7 @@ tagline:             "day"
 description:         'Twitter <a href="https://twitter.com/ongaeshi" target="_blank">@ongaeshi</a>.'
 url:                 https://ongaeshi.github.io
 baseurl:             '/day_ongaeshi'
-paginate:            5
+paginate:            30
 permalink:           pretty
 
 # About/contact
