@@ -6,6 +6,7 @@ url:                 https://ongaeshi.github.io
 baseurl:             '/day_ongaeshi'
 paginate:            30
 permalink:           pretty
+timezone:            Asia/Tokyo
 
 # About/contact
 author:
