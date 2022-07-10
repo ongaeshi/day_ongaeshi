@@ -3,6 +3,12 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@ongaeshi" />
+  <meta name="twitter:title" content="{{ page.title }}" />
+  <meta name="twitter:description" content="{{ page.content | strip_html | xml_escape | truncate: 200 }}" />
+  <meta name="twitter:image" content="https://i.gyazo.com/thumb/640/9f5c13c72c4c58fedf8b08fc970f7543.png" />
 
   <title>
     {% if page.title == "Home" %}
@@ -11,7 +17,7 @@
       {{ page.title }} &middot; {{ site.title }}
     {% endif %}
   </title>
-
+ 
   {% if page.url and site.baseurl %}
   <link rel="canonical" href="{{ page.url | absolute_url }}">
   {% endif %}
