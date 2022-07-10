@@ -8,7 +8,6 @@
   <meta name="twitter:site" content="@ongaeshi" />
   <meta name="twitter:title" content="{{ page.title }}" />
   <meta name="twitter:description" content="{{ page.content | strip_html | xml_escape | truncate: 200 }}" />
-  <meta name="twitter:image" content="https://i.gyazo.com/thumb/640/9f5c13c72c4c58fedf8b08fc970f7543.png" />
 
   <title>
     {% if page.title == "Home" %}
@@ -30,7 +29,6 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
 
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ '/public/apple-touch-icon-precomposed.png' | absolute_url }}">
   <link rel="shortcut icon" href="{{ '/public/favicon.ico' | absolute_url }}">
 
   <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ '/atom.xml' | absolute_url }}">
