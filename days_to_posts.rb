@@ -19,10 +19,16 @@ class Post
 layout: post
 title: #{title}
 permalink: "#{date.strftime('%Y%m%d')}"
+image: #{search_image_url_from_content}
 ---
 #{content.chomp}
       EOS
     )
+  end
+
+  def search_image_url_from_content
+    content =~ /\!\[.*?\]\(([^\s\)]+).*/
+    $1
   end
 end
 
