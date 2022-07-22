@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>ongaeshi</title>
+ <link href="https://day.ongaeshi.me/atom.xml" rel="self"/>
+ <link href="https://day.ongaeshi.me/"/>
+ <updated>2022-07-23T03:20:34+09:00</updated>
+ <id>https://day.ongaeshi.me</id>
+ <author>
+   <name>ongaeshi</name>
+   <email>ongaeshi0621@gmail.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>dayのREADMEをもう少し分かりやすくしたい</title>
+   <link href="https://day.ongaeshi.me/20220722"/>
+   <updated>2022-07-22T00:00:00+09:00</updated>
+   <id>https://day.ongaeshi.me/day</id>
+   <content type="html">&lt;p&gt;格闘中。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/ongaeshi/day/issues/4&quot;&gt;https://github.com/ongaeshi/day/issues/4&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;大分よくなった気がする。(例を作るのが重要だったかも)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/ongaeshi/day/blob/main/README.md&quot;&gt;day/README.md&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.gyazo.com/thumb/640/52db1e13b41fc226b33f5202b2143eb2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>dayのモバイルからの編集を改善したい</title>
+   <link href="https://day.ongaeshi.me/20220721"/>
+   <updated>2022-07-21T00:00:00+09:00</updated>
+   <id>https://day.ongaeshi.me/day</id>
+   <content type="html">&lt;p&gt;SafariからWebインターフェース経由で編集しているのだが、もう少しよい方法がないか検索中。TextwellからAPI叩こうと思っていたが、公式アプリがあったのでまずはこれを試してみることに。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/jp/app/github/id1477376905&quot;&gt;「GitHub」をApp Storeで&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;(試してみた) 残念、編集できないや。しかしIssueが大分見やすいのでこれはこれで使いそう。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>読む力最新スキル大全を買った</title>
+   <link href="https://day.ongaeshi.me/20220720"/>
+   <updated>2022-07-20T00:00:00+09:00</updated>
+   <id>https://day.ongaeshi.me/day</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;https://www.amazon.co.jp/dp/4492046860&quot;&gt;https://www.amazon.co.jp/dp/4492046860&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;筆者の情報の剪定、収集、メモ、展開、心構えについて一通りまとまった本&lt;/li&gt;
+  &lt;li&gt;今、RSSリーダーとPocketの使い方を真似している最中&lt;/li&gt;
+  &lt;li&gt;元々inoreaderとpocketは使っていたんだけど、Pocketに貯めても結局見ないで捨てたりしてしまっていたので改善したい気持ちがあった&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;こんな感じになった。&lt;/p&gt;
+
+&lt;h2 id=&quot;rssリーダーとpocketの使い分け&quot;&gt;RSSリーダーとPocketの使い分け&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;RSSリーダーでは極力見出しだけを見てpocketに放り込む(キーボードのy)だけにする&lt;/li&gt;
+  &lt;li&gt;別のターンでPocketを開いたら記事を読んで既読にしていく(その都度ページ開かずに極力Pocket内で読む、広告も出ないし読み込み速度も早い)&lt;/li&gt;
+  &lt;li&gt;英語記事の場合はまず無条件でgoogle翻訳のウェブ翻訳に入れてざっと日本語で読み、ちゃんと読みたい箇所は原文を当たる&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;RSSリーダーではPocketに放り込むのに集中、Pocketはどんどん記事を読むことに集中(リンク先開かない)、とタスクを分けることで大分やりやすくなった。&lt;/p&gt;
+
+&lt;h2 id=&quot;メモアプリの使い分け&quot;&gt;メモアプリの使い分け&lt;/h2&gt;
+&lt;p&gt;基本1ポケット思想で1つのアプリにテキストを極力集約するようにしていたんだけど、自分の概念をまとめるメモと、Webクリップのような用途が違うものを無理やり1つのアプリで管理しようとするとかえって面倒。今こんな感じにしてる。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Obsidian … メインメモ、自分が思ったことや気が付いたことを記録、読書メモもここ&lt;/li&gt;
+  &lt;li&gt;Scrapbox … Obsidianメモが手元にないときのメモを記録、複数人で共有したり公開したいメモを置くのにも便利&lt;/li&gt;
+  &lt;li&gt;Google Keep … Webクリップ用(notionとどちらがよいかは試し中)&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>はてなブログでdayを紹介する</title>
+   <link href="https://day.ongaeshi.me/20220719"/>
+   <updated>2022-07-19T00:00:00+09:00</updated>
+   <id>https://day.ongaeshi.me/day</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;https://ongaeshi.hatenablog.com/entry/day-blog-system&quot;&gt;毎日簡単に更新できてサクサク閲覧できるブログシステムを作った - ブログのおんがえし&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;とりあえずひと段落かな。ここまで大体20日位かかってる。(そういうのもdayのおかげで大分わかりやすくなった)&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>dayのREADMEを書く</title>
+   <link href="https://day.ongaeshi.me/20220718"/>
+   <updated>2022-07-18T00:00:00+09:00</updated>
+   <id>https://day.ongaeshi.me/day</id>
+   <content type="html">&lt;p&gt;画像をgyazoにペタペタ貼って分かりやすくする。分かりやすく書こうとすると結構時間がかかる。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/ongaeshi/day/blob/main/README.md&quot;&gt;https://github.com/ongaeshi/day/blob/main/README.md&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.gyazo.com/thumb/640/d9ed125f875c12e0a7c8ff3875544183.png&quot; alt=&quot;README.md&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;今はGitHubにtemplateという機能があって、forkしなくてもレポジトリの内容を簡単にコピーできるようになっていて便利。ongaeshi/dayもその仕組みを利用した。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>dayレポジトリをimportして独自のブログを立てる</title>
+   <link href="https://day.ongaeshi.me/20220716"/>
+   <updated>2022-07-16T00:00:00+09:00</updated>
+   <id>https://day.ongaeshi.me/day</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;https://github.com/ongaeshi/day/issues/2&quot;&gt;https://github.com/ongaeshi/day/issues/2&lt;/a&gt;で作業中。&lt;/p&gt;
+
+&lt;p&gt;実験で&lt;a href=&quot;https://todaymusic.ongaeshi.me/&quot;&gt;today musci&lt;/a&gt; というサイトをデプロイしているが、&lt;br /&gt;
+全ての作業がWebインターフェースだけで完結するので大分楽。&lt;br /&gt;
+SpotifyやYouTubeの埋め込みもWebインターフェースからできる。&lt;br /&gt;
+ローカルにGitレポジトリはcloneしないで済んでいる。&lt;/p&gt;
+
+&lt;p&gt;次はこの作業履歴を元にREADMEを書く。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>dayブログシステムを誰でも使えるようにする</title>
+   <link href="https://day.ongaeshi.me/20220715"/>
+   <updated>2022-07-15T00:00:00+09:00</updated>
+   <id>https://day.ongaeshi.me/day</id>
+   <content type="html">&lt;p&gt;最小限構成のレポジトリを作成中。forkしてWebから設定ファイル書き換えてコミットすればGitHub Actionsが走ってデプロイされるようになっている。&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/ongaeshi/day&quot;&gt;https://github.com/ongaeshi/day&lt;/a&gt; をfork&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;書き換えてコミット(Web UI経由でOK)&lt;/li&gt;
+  &lt;li&gt;GitHub Actionsが終わるまで数分待つ…&lt;/li&gt;
+  &lt;li&gt;GitHub Pagesのブランチ設定をgh-pagesに変更&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;数分後&quot;&gt;数分後…&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://ongaeshi.github.io/day/&quot;&gt;https://ongaeshi.github.io/day/&lt;/a&gt; がデプロイされる。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.gyazo.com/thumb/320/d53f693f5ececdb67a92a98c26a7ee18.png&quot; alt=&quot;day blog sample&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;もうちょっとREADMEの調整して分かりやすくする。 &lt;a href=&quot;https://github.com/ongaeshi/day/issues/1&quot;&gt;https://github.com/ongaeshi/day/issues/1&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>zigのインストール</title>
+   <link href="https://day.ongaeshi.me/20220714"/>
+   <updated>2022-07-14T00:00:00+09:00</updated>
+   <id>https://day.ongaeshi.me/day</id>
+   <content type="html">&lt;p&gt;流行っているからHello Worldまでやった。zipファイルをダウンロード＆解凍して(ファイル数多いのでまぁまぁ時間かかる)＆PATH通せばOK。&lt;/p&gt;
+
+&lt;p&gt;zig buildすると裏で(インストールした覚えのない、多分zigのzip中に含まれている)LLVMが走ってネイティブバイナリが生成されるのはなかなか楽しい。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://ziglang.org/learn/getting-started/&quot;&gt;https://ziglang.org/learn/getting-started/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;初見はgolangにGCがないやつ、もしくはRustよりは簡単なBetter Cという印象だけど、もう少し触ってみないと本当のところは分からない。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>AirPodsの片耳が充電できない</title>
+   <link href="https://day.ongaeshi.me/20220713"/>
+   <updated>2022-07-13T00:00:00+09:00</updated>
+   <id>https://day.ongaeshi.me/day</id>
+   <content type="html">&lt;p&gt;ケースにぽいっと入れておくとたまに右耳だけ充電できていないときがある。電源もOFFにならないので次に聴くときに充電が切れているのが辛い。調べてもあんまりよい情報が見つからないので自力で解決策を模索中。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.gyazo.com/thumb/240/077747a2753b6cb9988bdf5d50647a43.jpg&quot; alt=&quot;片耳が充電できていないときのiPhoneのステータス画面&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;ケースの中のホコリを綿棒で定期的に取る&lt;/li&gt;
+  &lt;li&gt;接触位置が悪いらしくケースに入れたときにちょっと奥側に倒したりして調整&lt;/li&gt;
+  &lt;li&gt;ケースのオレンジランプが付いたらOK、付かなかったら充電されていない&lt;/li&gt;
+  &lt;li&gt;AirPodsが充電されているときは&lt;strong&gt;ケースを空けておけば&lt;/strong&gt;(ここ重要)iPhoneのステータス画面で確認できるので心配なときは確認する(写真は失敗している状態)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;これで大分事故は減った気がする。バッテリーはまだ劣化していない(最初バッテリーが劣化したのだと勘違いしていた)ようなのでもう少し使いたい。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>dayブログシステムの汎用化</title>
+   <link href="https://day.ongaeshi.me/20220712"/>
+   <updated>2022-07-12T00:00:00+09:00</updated>
+   <id>https://day.ongaeshi.me/day</id>
+   <content type="html">&lt;p&gt;基本的な機能は入ったので、
+forkすれば誰でも自分のブログを始められるようにしたい。
+とりあえず専用のレポジトリとdescriptionを設定。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/ongaeshi/day&quot;&gt;https://github.com/ongaeshi/day&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>プロを目指すためのTypeScript入門を読んだ</title>
+   <link href="https://day.ongaeshi.me/20220711"/>
+   <updated>2022-07-11T00:00:00+09:00</updated>
+   <id>https://day.ongaeshi.me/day</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;https://gihyo.jp/book/2022/978-4-297-12747-3&quot;&gt;https://gihyo.jp/book/2022/978-4-297-12747-3&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;元々はJavaScriptやTypeScriptのモジュールシステムの説明が網羅的に記述されている書籍が欲しくて買った。7章がそれだが網羅的に記述されていて大満足。(ずっと断片的に使っていたのでrequireとimportの歴史的経緯とかが分かってすっきりした)&lt;/p&gt;
+
+&lt;p&gt;それ以外だと特にオブジェクト型とユニオン型のところが面白かった。大体読んだのでサンプルコードも&lt;a href=&quot;https://github.com/ongaeshi/typescript_practice/blob/master/src/t4_1_10.ts&quot;&gt;写経し始めてる&lt;/a&gt;。map, filter, every, some, find 辺りがそらで書けるようになると大分楽しいのだろうな。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Twitter Cardに対応した</title>
+   <link href="https://day.ongaeshi.me/20220710"/>
+   <updated>2022-07-10T00:00:00+09:00</updated>
+   <id>https://day.ongaeshi.me/day</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;https://day.ongaeshi.me/20220710&quot;&gt;https://day.ongaeshi.me/20220710&lt;/a&gt; をTwitterに貼り付けると以下のようなカードを表示してくれる。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.gyazo.com/d4a05035edaa78154bd75d6579a11874.png&quot; alt=&quot;twitter_card.png&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll twitter card&lt;/code&gt;で検索すると色々出てくるので基本その通りにやればOK&lt;/li&gt;
+  &lt;li&gt;Jekyllの情報は多くて助かる&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_includes/head.html&lt;/code&gt;のheadタグ内に&lt;a href=&quot;https://github.com/ongaeshi/day_ongaeshi/blob/ef8432ec8ab642c501f65879e60fa325bf864957/_includes/head.html#L7-L10&quot;&gt;meta情報を挿入する&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;descriptionのところは少し工夫していて、文章の先頭200文字を切り出して自動で設定するようになっている(&lt;a href=&quot;https://ja.getdocs.org/jekyll-twitter-cards&quot;&gt;参考&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>GitHub Pages にカスタムドメイン(HTTPS)を設定</title>
+   <link href="https://day.ongaeshi.me/20220709"/>
+   <updated>2022-07-09T00:00:00+09:00</updated>
+   <id>https://day.ongaeshi.me/day</id>
+   <content type="html">&lt;p&gt;このページのURLを https://day.ongaeshi.me に変更した。&lt;/p&gt;
+
+&lt;p&gt;GitHub Pages でカスタムドメインを設定する(かつHTTPS強制)には基本以下の手順が必要。&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;カスタムドメインの設定&lt;/li&gt;
+  &lt;li&gt;Enforce HTTPSをON&lt;/li&gt;
+  &lt;li&gt;ドメイン側でDNSレコードの設定&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.gyazo.com/thumb/640/9f5c13c72c4c58fedf8b08fc970f7543.png&quot; alt=&quot;Custom domain&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;設定してもしばらくはアクセスしても「危険なWebサイトです」とか言われてして見えなかったりするので5分位は我慢。&lt;br /&gt;
+※ 多分裏でLet’s Encryptにアクセスして&lt;a href=&quot;https://qiita.com/foobaron/items/cd9cfc403defa706372b&quot;&gt;登録手続きしてくれている&lt;/a&gt;のだと思う、ありがたい。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>チ。―地球の運動について― (8)</title>
+   <link href="https://day.ongaeshi.me/20220708"/>
+   <updated>2022-07-08T00:00:00+09:00</updated>
+   <id>https://day.ongaeshi.me/day</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;https://shogakukan-comic.jp/book?isbn=9784098613175&quot;&gt;https://shogakukan-comic.jp/book?isbn=9784098613175&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;「チ」をとりまく名もなき人たちの群像劇が完結&lt;/li&gt;
+  &lt;li&gt;「チ」には色々な意味が込められているが私は「知」にまつわるエピソードに一番わくわくした&lt;/li&gt;
+  &lt;li&gt;最後は１周しただけだとちゃんと分からないところがあったが、それをどのように解釈していくかも含めての物語なのだと思った(他の人の考察読んだらまぁ大体分かった)&lt;/li&gt;
+  &lt;li&gt;1巻が面白い選手権だと歴代でも優勝なので、興味がある人は是非1巻の最後まで読んでみてほしい&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;ところで改めて1巻の帯読み直してみると、岩明均先生、オチが予想できてます…？(すごい)&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>記事の自動生成できた！</title>
+   <link href="https://day.ongaeshi.me/20220707"/>
+   <updated>2022-07-07T00:00:00+09:00</updated>
+   <id>https://day.ongaeshi.me/day</id>
+   <content type="html">&lt;p&gt;このブログの記事は全て &lt;a href=&quot;https://github.com/ongaeshi/day_ongaeshi/blob/master/_days/2022.md&quot;&gt;https://github.com/ongaeshi/day_ongaeshi/blob/master/_days/2022.md&lt;/a&gt; から作れるようになった。面倒なヘッダ情報の設定もこれで不要になる。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/ongaeshi/day_ongaeshi/blob/master/days_to_posts.rb&quot;&gt;days_to_posts.rb&lt;/a&gt;スクリプトを&lt;a href=&quot;https://github.com/ongaeshi/day_ongaeshi/blob/master/.github/workflows/github-pages.yml#L12-L15&quot;&gt;GitHub Actions&lt;/a&gt;を使って実行して&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_days&lt;/code&gt;以下のMarkdownを&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt;に分割する仕組み。&lt;/p&gt;
+
+&lt;p&gt;1ファイルブックマークしておけばOKなので大分楽になった。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.gyazo.com/thumb/480/cc79712507771acd711dbc2d28f3d8cc.jpg&quot; alt=&quot;2022.md&quot; /&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>シンプルなMarkdownからJekyllのpostsを自動生成する</title>
+   <link href="https://day.ongaeshi.me/20220706"/>
+   <updated>2022-07-06T00:00:00+09:00</updated>
+   <id>https://day.ongaeshi.me/day</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;https://github.com/ongaeshi/day_ongaeshi/issues/3&quot;&gt;https://github.com/ongaeshi/day_ongaeshi/issues/3&lt;/a&gt;でチャレンジ中。&lt;/p&gt;
+
+&lt;p&gt;最初プラグインのGeneratorを使おうとしたけど、pagesは作れるけどpostsを作る方法は見つからなかった。(なんとなく難しそうな印象)&lt;/p&gt;
+
+&lt;p&gt;ということでGitHub ActionsでRubyスクリプトを事前に実行しておく作戦を次に検討中。 &lt;br /&gt;
+&lt;a href=&quot;https://github.com/marketplace/actions/setup-ruby-jruby-and-truffleruby&quot;&gt;ruby/setup-ruby&lt;/a&gt; を使えばRubyスクリプトの実行は比較的簡単にできそう。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>jekyllでhttpから始まるテキストをオートリンクしたい</title>
+   <link href="https://day.ongaeshi.me/20220705"/>
+   <updated>2022-07-05T00:00:00+09:00</updated>
+   <id>https://day.ongaeshi.me/day</id>
+   <content type="html">&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;https://ongaeshi.github.io/day_ongaeshi/day/20220703&amp;gt;&lt;/code&gt;のように前後をブランケットを囲む。&lt;/p&gt;
+
+&lt;p&gt;シンプルなオートリンクオプションはjekyll標準のKramdownには搭載されていない模様 😭 &lt;a href=&quot;https://kramdown.gettalong.org/syntax.html#automatic-links&quot;&gt;https://kramdown.gettalong.org/syntax.html#automatic-links&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>マスターキートンReマスター読んだ</title>
+   <link href="https://day.ongaeshi.me/20220704"/>
+   <updated>2022-07-04T00:00:00+09:00</updated>
+   <id>https://day.ongaeshi.me/day</id>
+   <content type="html">&lt;p&gt;面白かった。昔より絵がうまい(すごい)。&lt;/p&gt;
+
+&lt;p&gt;2014年に発売してたのに知らなかった。重版がかかってじわじわと売れてるらしい。コンビニにいまだに売ってるのすごい。 &lt;a href=&quot;https://www.shogakukan.co.jp/books/09186726&quot;&gt;https://www.shogakukan.co.jp/books/09186726&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>jekyll/actionsのソース読む</title>
+   <link href="https://day.ongaeshi.me/20220703"/>
+   <updated>2022-07-03T00:00:00+09:00</updated>
+   <id>https://day.ongaeshi.me/day</id>
+   <content type="html">&lt;p&gt;jekyllビルドの前にRubyスクリプトの前処理を入れたい。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/helaili/jekyll-action&quot;&gt;helaili/jekyll-action&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Dockerfileを起動、ruby入りのalpine、その中でentrypoint.shを実行している模様。丸コピーしないと処理挟むの難しそう。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>サブドメインでも動くようにする</title>
+   <link href="https://day.ongaeshi.me/20220702"/>
+   <updated>2022-07-02T00:00:00+09:00</updated>
+   <id>https://day.ongaeshi.me/day</id>
+   <content type="html">&lt;p&gt;_config.yml の url と baseurl を設定したら動くようになった。(&lt;a href=&quot;https://mademistakes.com/mastering-jekyll/site-url-baseurl/&quot;&gt;参考&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.gyazo.com/c32659968803bfdbea25ebe0074a3a37.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;cupheadの拡張パックがついに出た！&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>GitHub Action 経由でビルドする</title>
+   <link href="https://day.ongaeshi.me/20220701"/>
+   <updated>2022-07-01T00:00:00+09:00</updated>
+   <id>https://day.ongaeshi.me/day</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;https://github.com/ongaeshi/day_ongaeshi/actions&quot;&gt;GitHub Action&lt;/a&gt; 面白い。
+&lt;a href=&quot;https://github.com/marketplace/actions/jekyll-actions&quot;&gt;jekyll-actions&lt;/a&gt;使ってる。&lt;/p&gt;
+
+&lt;p&gt;https://ongaeshi.github.io/day_ongaeshi/ にデプロイできた。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>2022/06/30</title>
+   <link href="https://day.ongaeshi.me/20220630"/>
+   <updated>2022-06-30T00:00:00+09:00</updated>
+   <id>https://day.ongaeshi.me/day</id>
+   <content type="html">&lt;p&gt;Jekyllと格闘してる。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.nikhita.dev/build-blog-using-github-jekyll&quot;&gt;Lanyonテーマの導入チュートリアル記事&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://stackoverflow.com/a/27101060&quot;&gt;postsのURLから日付を消したい&lt;/a&gt; permalink属性使う方法でやった&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>画像テスト</title>
+   <link href="https://day.ongaeshi.me/20220629"/>
+   <updated>2022-06-29T00:00:00+09:00</updated>
+   <id>https://day.ongaeshi.me/day</id>
+   <content type="html">&lt;p&gt;gyazoの画像を貼る。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.gyazo.com/6aa6ecbf28b6af9f5684487bc42f2620.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>はじめます。</title>
+   <link href="https://day.ongaeshi.me/20220628"/>
+   <updated>2022-06-28T00:00:00+09:00</updated>
+   <id>https://day.ongaeshi.me/day</id>
+   <content type="html">&lt;p&gt;おはよう。&lt;/p&gt;
+</content>
+ </entry>
+ 
+
+</feed>
