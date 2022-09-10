@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@ongaeshi" />
+  <meta name="twitter:title" content="Home" />
+  <meta name="twitter:description" content="
+  {% for post in paginator.posts %}
+  
+    
+      
+        {{ post.title }}
+      
+    
+
+    
+    
+    
+    {{ post.date | date: &quot;%Y年%m月%d日&quot; }}
+
+    {{ post.content }}
+  
+  {% endfor %}
+..." />
+  
+
+  <title>
+    
+      ongaeshi &middot; day
+    
+  </title>
+ 
+  
+  <link rel="canonical" href="https://day.ongaeshi.me/page2/">
+  
+
+  <link rel="stylesheet" href="https://day.ongaeshi.me/public/css/poole.css">
+  <link rel="stylesheet" href="https://day.ongaeshi.me/public/css/syntax.css">
+  <link rel="stylesheet" href="https://day.ongaeshi.me/public/css/lanyon.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+
+  <link rel="shortcut icon" href="https://day.ongaeshi.me/public/favicon.ico">
+
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="https://day.ongaeshi.me/atom.xml">
+
+  
+</head>
+
+
+  <body>
+
+    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    <p>Twitter <a href="https://twitter.com/ongaeshi" target="_blank">@ongaeshi</a>. GitHub <a href="https://github.com/ongaeshi/day_ongaeshi">day_ongaeshi</a>.</p>
+  </div>
+
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item active" href="https://day.ongaeshi.me/">Home</a>
+
+    
+
+    
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+    
+      
+        
+      
+    
+  </nav>
+
+  <div class="sidebar-item">
+    <p>
+      &copy; 2022. All rights reserved.
+    </p>
+  </div>
+</div>
+
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="/" title="Home">ongaeshi</a>
+            <small>day</small>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+        <div class="posts">
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="https://day.ongaeshi.me/20220705">
+        jekyllでhttpから始まるテキストをオートリンクしたい
+      </a>
+    </h1>
+
+    <!-- <span class="post-date">05 Jul 2022</span> -->
+    <!-- <span class="post-date">2022-07-05</span> -->
+    <!-- <span class="post-date">2022/07/05</span> -->
+    <span class="post-date">2022年07月05日</span>
+
+    <p><code class="language-plaintext highlighter-rouge">&lt;https://ongaeshi.github.io/day_ongaeshi/day/20220703&gt;</code>のように前後をブランケットを囲む。</p>
+
+<p>シンプルなオートリンクオプションはjekyll標準のKramdownには搭載されていない模様 😭 <a href="https://kramdown.gettalong.org/syntax.html#automatic-links">https://kramdown.gettalong.org/syntax.html#automatic-links</a></p>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="https://day.ongaeshi.me/20220704">
+        マスターキートンReマスター読んだ
+      </a>
+    </h1>
+
+    <!-- <span class="post-date">04 Jul 2022</span> -->
+    <!-- <span class="post-date">2022-07-04</span> -->
+    <!-- <span class="post-date">2022/07/04</span> -->
+    <span class="post-date">2022年07月04日</span>
+
+    <p>面白かった。昔より絵がうまい(すごい)。</p>
+
+<p>2014年に発売してたのに知らなかった。重版がかかってじわじわと売れてるらしい。コンビニにいまだに売ってるのすごい。 <a href="https://www.shogakukan.co.jp/books/09186726">https://www.shogakukan.co.jp/books/09186726</a></p>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="https://day.ongaeshi.me/20220703">
+        jekyll/actionsのソース読む
+      </a>
+    </h1>
+
+    <!-- <span class="post-date">03 Jul 2022</span> -->
+    <!-- <span class="post-date">2022-07-03</span> -->
+    <!-- <span class="post-date">2022/07/03</span> -->
+    <span class="post-date">2022年07月03日</span>
+
+    <p>jekyllビルドの前にRubyスクリプトの前処理を入れたい。</p>
+
+<ul>
+  <li><a href="https://github.com/helaili/jekyll-action">helaili/jekyll-action</a></li>
+</ul>
+
+<p>Dockerfileを起動、ruby入りのalpine、その中でentrypoint.shを実行している模様。丸コピーしないと処理挟むの難しそう。</p>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="https://day.ongaeshi.me/20220702">
+        サブドメインでも動くようにする
+      </a>
+    </h1>
+
+    <!-- <span class="post-date">02 Jul 2022</span> -->
+    <!-- <span class="post-date">2022-07-02</span> -->
+    <!-- <span class="post-date">2022/07/02</span> -->
+    <span class="post-date">2022年07月02日</span>
+
+    <p>_config.yml の url と baseurl を設定したら動くようになった。(<a href="https://mademistakes.com/mastering-jekyll/site-url-baseurl/">参考</a>)</p>
+
+<p><img src="https://i.gyazo.com/c32659968803bfdbea25ebe0074a3a37.png" alt="" /></p>
+
+<p>cupheadの拡張パックがついに出た！</p>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="https://day.ongaeshi.me/20220701">
+        GitHub Action 経由でビルドする
+      </a>
+    </h1>
+
+    <!-- <span class="post-date">01 Jul 2022</span> -->
+    <!-- <span class="post-date">2022-07-01</span> -->
+    <!-- <span class="post-date">2022/07/01</span> -->
+    <span class="post-date">2022年07月01日</span>
+
+    <p><a href="https://github.com/ongaeshi/day_ongaeshi/actions">GitHub Action</a> 面白い。
+<a href="https://github.com/marketplace/actions/jekyll-actions">jekyll-actions</a>使ってる。</p>
+
+<p>https://ongaeshi.github.io/day_ongaeshi/ にデプロイできた。</p>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="https://day.ongaeshi.me/20220630">
+        2022/06/30
+      </a>
+    </h1>
+
+    <!-- <span class="post-date">30 Jun 2022</span> -->
+    <!-- <span class="post-date">2022-06-30</span> -->
+    <!-- <span class="post-date">2022/06/30</span> -->
+    <span class="post-date">2022年06月30日</span>
+
+    <p>Jekyllと格闘してる。</p>
+
+<ul>
+  <li><a href="https://www.nikhita.dev/build-blog-using-github-jekyll">Lanyonテーマの導入チュートリアル記事</a></li>
+  <li><a href="https://stackoverflow.com/a/27101060">postsのURLから日付を消したい</a> permalink属性使う方法でやった</li>
+</ul>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="https://day.ongaeshi.me/20220629">
+        画像テスト
+      </a>
+    </h1>
+
+    <!-- <span class="post-date">29 Jun 2022</span> -->
+    <!-- <span class="post-date">2022-06-29</span> -->
+    <!-- <span class="post-date">2022/06/29</span> -->
+    <span class="post-date">2022年06月29日</span>
+
+    <p>gyazoの画像を貼る。</p>
+
+<p><img src="https://i.gyazo.com/6aa6ecbf28b6af9f5684487bc42f2620.gif" alt="" /></p>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="https://day.ongaeshi.me/20220628">
+        はじめます。
+      </a>
+    </h1>
+
+    <!-- <span class="post-date">28 Jun 2022</span> -->
+    <!-- <span class="post-date">2022-06-28</span> -->
+    <!-- <span class="post-date">2022/06/28</span> -->
+    <span class="post-date">2022年06月28日</span>
+
+    <p>おはよう。</p>
+
+  </div>
+  
+</div>
+
+<div class="pagination">
+  
+    <span class="pagination-item older">Older</span>
+  
+  
+    
+      <a class="pagination-item newer" href="https://day.ongaeshi.me/">Newer</a>
+    
+  
+</div>
+
+      </div>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+    <script src='/public/js/script.js'></script>
+  </body>
+</html>

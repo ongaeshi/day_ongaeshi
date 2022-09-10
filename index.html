@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@ongaeshi" />
+  <meta name="twitter:title" content="Home" />
+  <meta name="twitter:description" content="
+  {% for post in paginator.posts %}
+  
+    
+      
+        {{ post.title }}
+      
+    
+
+    
+    
+    
+    {{ post.date | date: &quot;%Y年%m月%d日&quot; }}
+
+    {{ post.content }}
+  
+  {% endfor %}
+..." />
+  
+
+  <title>
+    
+      ongaeshi &middot; day
+    
+  </title>
+ 
+  
+  <link rel="canonical" href="https://day.ongaeshi.me/">
+  
+
+  <link rel="stylesheet" href="https://day.ongaeshi.me/public/css/poole.css">
+  <link rel="stylesheet" href="https://day.ongaeshi.me/public/css/syntax.css">
+  <link rel="stylesheet" href="https://day.ongaeshi.me/public/css/lanyon.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+
+  <link rel="shortcut icon" href="https://day.ongaeshi.me/public/favicon.ico">
+
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="https://day.ongaeshi.me/atom.xml">
+
+  
+</head>
+
+
+  <body>
+
+    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    <p>Twitter <a href="https://twitter.com/ongaeshi" target="_blank">@ongaeshi</a>. GitHub <a href="https://github.com/ongaeshi/day_ongaeshi">day_ongaeshi</a>.</p>
+  </div>
+
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item active" href="https://day.ongaeshi.me/">Home</a>
+
+    
+
+    
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+    
+      
+        
+      
+    
+  </nav>
+
+  <div class="sidebar-item">
+    <p>
+      &copy; 2022. All rights reserved.
+    </p>
+  </div>
+</div>
+
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="/" title="Home">ongaeshi</a>
+            <small>day</small>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+        <div class="posts">
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="https://day.ongaeshi.me/20220910">
+        Rconvでタイムゾーン変換
+      </a>
+    </h1>
+
+    <!-- <span class="post-date">10 Sep 2022</span> -->
+    <!-- <span class="post-date">2022-09-10</span> -->
+    <!-- <span class="post-date">2022/09/10</span> -->
+    <span class="post-date">2022年09月10日</span>
+
+    <p>Slackがリクエストを見つけたのでざっと作ってみた。
+後はタイムゾーン一覧を作ればOK。</p>
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">Ruby/WASMで作る小さなプログラム(4) タイムゾーン変換 <a href="https://t.co/EErYs3QMt0">https://t.co/EErYs3QMt0</a> <a href="https://twitter.com/hashtag/rconv?src=hash&amp;ref_src=twsrc%5Etfw">#rconv</a> <a href="https://twitter.com/hashtag/ruby?src=hash&amp;ref_src=twsrc%5Etfw">#ruby</a> <a href="https://t.co/GqdIOrqFWd">pic.twitter.com/GqdIOrqFWd</a></p>&mdash; おんがえし (@ongaeshi) <a href="https://twitter.com/ongaeshi/status/1568611608313892866?ref_src=twsrc%5Etfw">September 10, 2022</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="https://day.ongaeshi.me/20220907">
+        Rconv 紹介ブログを書いた
+      </a>
+    </h1>
+
+    <!-- <span class="post-date">07 Sep 2022</span> -->
+    <!-- <span class="post-date">2022-09-07</span> -->
+    <!-- <span class="post-date">2022/09/07</span> -->
+    <span class="post-date">2022年09月07日</span>
+
+    <p><a href="https://ongaeshi.hatenablog.com/entry/rconv">rconv - Ruby WASMでプログラム電卓を作りました - ブログのおんがえし</a></p>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="https://day.ongaeshi.me/20220906">
+        Rconv 紹介ブログを書いている
+      </a>
+    </h1>
+
+    <!-- <span class="post-date">06 Sep 2022</span> -->
+    <!-- <span class="post-date">2022-09-06</span> -->
+    <!-- <span class="post-date">2022/09/06</span> -->
+    <span class="post-date">2022年09月06日</span>
+
+    <p>重い腰をあげて原稿を書く。やっぱり一時間じゃ終わらなかった。</p>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="https://day.ongaeshi.me/20220829">
+        Rconv しあげ
+      </a>
+    </h1>
+
+    <!-- <span class="post-date">29 Aug 2022</span> -->
+    <!-- <span class="post-date">2022-08-29</span> -->
+    <!-- <span class="post-date">2022/08/29</span> -->
+    <span class="post-date">2022年08月29日</span>
+
+    <p>大分必要な機能はそろったかな。</p>
+
+<ul>
+  <li><a href="https://github.com/ongaeshi/rconv/issues/22">複数行入力のときは最後の評価値を代入する</a></li>
+  <li><a href="https://github.com/ongaeshi/rconv/issues/21">always string チェックボックスが変更されたときに更新されなくなっている</a></li>
+</ul>
+
+<p>今は<a href="https://rconv.ongaeshi.me/?q=MQAgFgLhAODOBcB6RBHAlmiBDAdAYwHsBbRAazFlMUwFMjZEATARgFYAzV1gBgDYOATHl7csWACzcBjAFB4ANlliwQAWSzQZIEAEEAMgEkAagFEQAXhDMtIACImdt7Ze4ybjGuxAKaWAE422qDQAK4QsABEADo0ANoAEjGxAgBWETY0AHay7p4gaJmYaFjyaABeNAAUAB4AciFEADQgAJ71TfmwAEpY2cQWIOwlsDQAlIHaAAJEGgOxALoTIJN1DQOrREuTbWuWO5va2pXcOKcbozi%2BeGAgAN4APmj3S8sz0LFo83OLh4fHpzh9hcrjcHilnr9ftMNB95rEUl9LGhur1GP0APwgPyoyr6YxmADUVlGIHgdgcTlAgCpzQABdoArBkAdgyAcwZsdlKgJxpCQABfCa87RZHLaDxeADmNAgAGVsBAqmhmilOYdQIA9hkAJQyAKYZAJ0MgHsGQCyiYB0JUASQyAGP1ALEMgGkGQCRDIBaqMAAQzMwryQCDDIByhkAwwyAeoZABYMgCCGQAOrnTANEMgCAGQASioBrBkAJmmANE0JmgvGgQAAeEDcED3e4gFIptMvPwSkJ%2BTLkxwTQVuX4J14wz44J3ol6l2zl%2BSwavQ96feHzetoeSNrnN1sjJud2E98vZDLT3JiiWShoADlqNDQorAACMCH4wAQCIxKvLs0rtLBdnnfueiANryAieKpTK5SAALRWBWnkB3yx3h8L58j3vD8TwmH9vzWf8nywWUj2aX4c3fZgv3Av8QEfaUYLleDDhzIlkLAi80IwwCkyQhU32JQib1-SD0IArCgPwiikJQoi6JIxiyJAvCqKvdibygzDYKTZjs2AgiBVnYU8hCaBGCwiZMhoAB3dRoG%2BCZ-lOFZ2mBLBrjuR4IUhZS1NrREQAWF5tJwbY9MuAzQXucEmxAMz1InBEBjwEo8FXFThOw0CuX5Q4wqmN4Bg8jQZyFEARW8PyAqCuCQsOWBnwGcduwRaiBgw5dV3XLcdz3A80sVeMvAyrLzEsexHBAAAyZqIJoywAGYmzxUwR2rTKsIsSxerMVqQEqH9LAEDMsymkBOq-Q5Rv6rxBtlYbdEMUwWraya1mTSxJK5RqW1%2BGg2wGuqRu2sa2rvAA%2BSxxCbU6RxoJt1o%2B87pyk%2BLEsYbEVImHx-C0k4dPORzrgeJ4bIhuygWhsAwRMrkOzeLzEQaik3O0aA-AKCAQAiAB9dIhxAC7R0p-HCcyYmIkmCmhwrUKXlCcIQAAcm5vk4srBK8hGaCRIVZovqWnK4W839nwFudOhMaoIAKPBVYITIlmAABCTscHYRQoCyHA72vHUBBwcRrSZQB1BkAfQYQ0AGwYLUAYwZ7a2N4DaN2VMhwAoUhodXKngAkSXqy8qenCsZCiyx1PrVTKiXRoRGaCA-BCMYZBLI63C6QhMgAN1NiVKlViB5BoMkIkAS4Y1UAVYZACaGQAfhkAA4YIhJNEMxoEzqxoTbXF%2BOO1A0ROVOT1PuHTzOxhAJSBmsAU22%2Bw4SwJPPh7HuSFNlBX8fcmwvcBrBgYrIA">ライフゲーム</a>移植中。そろそろrconvのリリースブログ書こうかな。</p>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="https://day.ongaeshi.me/20220828">
+        Rconvのコンバータが状態を持てるように
+      </a>
+    </h1>
+
+    <!-- <span class="post-date">28 Aug 2022</span> -->
+    <!-- <span class="post-date">2022-08-28</span> -->
+    <!-- <span class="post-date">2022/08/28</span> -->
+    <span class="post-date">2022年08月28日</span>
+
+    <p>なった。</p>
+
+<p><a href="https://github.com/ongaeshi/rconv/pull/19/">https://github.com/ongaeshi/rconv/pull/19/</a></p>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="https://day.ongaeshi.me/20220823">
+        Ruby/WASMで作る小さなプログラム - 今からN時間後
+      </a>
+    </h1>
+
+    <!-- <span class="post-date">23 Aug 2022</span> -->
+    <!-- <span class="post-date">2022-08-23</span> -->
+    <!-- <span class="post-date">2022/08/23</span> -->
+    <span class="post-date">2022年08月23日</span>
+
+    <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">Ruby/WASMで作る小さなプログラム(3) 今からN時間後 - 入力した時間が経過した後の時刻を求める <a href="https://t.co/ykujJ85V1d">https://t.co/ykujJ85V1d</a> <a href="https://twitter.com/hashtag/rconv?src=hash&amp;ref_src=twsrc%5Etfw">#rconv</a> <a href="https://t.co/PMOmStxQCp">pic.twitter.com/PMOmStxQCp</a></p>&mdash; おんがえし (@ongaeshi) <a href="https://twitter.com/ongaeshi/status/1562054937873645569?ref_src=twsrc%5Etfw">August 23, 2022</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="https://day.ongaeshi.me/20220822">
+        Rconv(6)
+      </a>
+    </h1>
+
+    <!-- <span class="post-date">22 Aug 2022</span> -->
+    <!-- <span class="post-date">2022-08-22</span> -->
+    <!-- <span class="post-date">2022/08/22</span> -->
+    <span class="post-date">2022年08月22日</span>
+
+    <p>サンプルコードの置き場所を<a href="https://github.com/ongaeshi/rconv/blob/main/sample/sample.ja.md">rconv/sample.ja.md</a>に置いた。1日1つずつ投稿していく。</p>
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">Ruby/WASM で作る小さなプログラム、入力した文字列の任意のケース(normal, chain, snake, camel, pascal, upchain, upsnake)に変換してくれる <a href="https://t.co/3sKKVjjpDR">https://t.co/3sKKVjjpDR</a> <a href="https://twitter.com/hashtag/rconv?src=hash&amp;ref_src=twsrc%5Etfw">#rconv</a> <a href="https://t.co/PVeXxcShxE">pic.twitter.com/PVeXxcShxE</a></p>&mdash; おんがえし (@ongaeshi) <a href="https://twitter.com/ongaeshi/status/1561730139742179329?ref_src=twsrc%5Etfw">August 22, 2022</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">Ruby/WASM で作るclassジェネレータ、ハッシュ形式のデータを入力すると自動でクラステンプレートを出力してくれる。 <a href="https://t.co/PdUr20Ecvd">https://t.co/PdUr20Ecvd</a> <a href="https://t.co/4JutKJ6H0q">pic.twitter.com/4JutKJ6H0q</a></p>&mdash; おんがえし (@ongaeshi) <a href="https://twitter.com/ongaeshi/status/1561349237853798400?ref_src=twsrc%5Etfw">August 21, 2022</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="https://day.ongaeshi.me/20220817">
+        Rconv(5)
+      </a>
+    </h1>
+
+    <!-- <span class="post-date">17 Aug 2022</span> -->
+    <!-- <span class="post-date">2022-08-17</span> -->
+    <!-- <span class="post-date">2022/08/17</span> -->
+    <span class="post-date">2022年08月17日</span>
+
+    <p>デフォルト値の設定や強制文字列オプションなど入れて大分使えるようになってきた。<br />
+<a href="https://scrapbox.io/rconv/">https://scrapbox.io/rconv/</a> にサンプルコードを置いた。</p>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="https://day.ongaeshi.me/20220813">
+        Rconv(4)
+      </a>
+    </h1>
+
+    <!-- <span class="post-date">13 Aug 2022</span> -->
+    <!-- <span class="post-date">2022-08-13</span> -->
+    <!-- <span class="post-date">2022/08/13</span> -->
+    <span class="post-date">2022年08月13日</span>
+
+    <ul>
+  <li><a href="https://github.com/ongaeshi/rconv/commit/e7b7805e9e30accccd6c51797ec96562e1aa006e">e7b7805e</a> 入力が入るたびにスクリプトを評価する</li>
+</ul>
+
+<p><a href="https://rconv.ongaeshi.me/?q=CYUwZgBARgTA1gCigTwC4gDQQHYEoBQEESaIEA9MTBAFQ064B0qA9gPphMBOLArtsAQwCIAfnyhIAB16oAzm1iIU6LNiz8AlqgJEAbhAC80eCVUNCEGfIgAiAMQBvPQF8ITrahe2ImyAYBCYwAGfFFgSwlwaFI2VjY4TSgzEF0rWTk7JxUQNxzbS2sFJRSsAEZgrFsAaU0AIVs0osVTHKwYSrsAWXrGwoyW5VIsAGZO2wBxXqaBkraIABZxgBVp-vlB0ogAVnGABTWiZrnhiAA2cYBRNfDxACUAYxZsPUY5EFQEVG0AGxAALjsOUA0gyASIZanUsD1IRApnVANYMgEhNQDbxo0IMAWBAAD4gLGWHJxdiJZKpMJiIA">数値をKiBやMiBに変換するやつ</a>が大分便利になった。(自分的な次第点は超えたかも)</p>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="https://day.ongaeshi.me/20220812">
+        Rconv(3)
+      </a>
+    </h1>
+
+    <!-- <span class="post-date">12 Aug 2022</span> -->
+    <!-- <span class="post-date">2022-08-12</span> -->
+    <!-- <span class="post-date">2022/08/12</span> -->
+    <span class="post-date">2022年08月12日</span>
+
+    <ul>
+  <li><a href="https://github.com/ongaeshi/rconv/commit/73f023646affd2f15bab8e576c992bcd20875f9f">73f02364</a> Rconv.setというAPI経由でコンバータを作れるようにした</li>
+  <li><a href="https://github.com/ongaeshi/rconv/commit/0e14f523b8e3968eb5bc5f7887f751d784b275c1">0e14f523</a> Rconv.setに:titleパラメータを渡すとページタイトルを変更できるようにした(独立したWebアプリケーションを作るのには重要)</li>
+</ul>
+
+<p><a href="https://rconv.ongaeshi.me/?q=MQUwdgxg9gJglmA5gLgAQFUAqAxAtADgCgAlaMANwDoBnEAFwAo646AbENAIkHDTQdW1B0JUDuqYCSGQGvKgdP1OASlQwoqAD4gFhVKhCV2SOgAtC4GISA">文字数を数える</a>コンバータがサクッとかけるようになった。</p>
+
+<p><img src="https://user-images.githubusercontent.com/154418/184405391-63caea1f-34c6-472b-b5e3-c8649c11b465.png" alt="image" /></p>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="https://day.ongaeshi.me/20220810">
+        Rconv(2)
+      </a>
+    </h1>
+
+    <!-- <span class="post-date">10 Aug 2022</span> -->
+    <!-- <span class="post-date">2022-08-10</span> -->
+    <!-- <span class="post-date">2022/08/10</span> -->
+    <span class="post-date">2022年08月10日</span>
+
+    <ul>
+  <li><a href="https://github.com/ongaeshi/rconv/commit/012a5280c6bb7b0a00cf85e887ab7e77ebbfb0ab">012a5280</a> f()という引数を受け取る関数を定義したら、input2の中身を引数に渡して実行できるようにした。</li>
+</ul>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="https://day.ongaeshi.me/20220806">
+        rconv開始
+      </a>
+    </h1>
+
+    <!-- <span class="post-date">06 Aug 2022</span> -->
+    <!-- <span class="post-date">2022-08-06</span> -->
+    <!-- <span class="post-date">2022/08/06</span> -->
+    <span class="post-date">2022年08月06日</span>
+
+    <p><a href="https://github.com/ongaeshi/rconv/">https://github.com/ongaeshi/rconv/</a> を作った。<br />
+rubyonbrowserのコピーから作成してここから改造していく。</p>
+
+<p>ビルド手順をrubyonbrowserのREADMEにちゃんと書いてなかったので、webpackの使い方を思い出すのに時間がかかった。</p>
+
+<script src="https://gist.github.com/ongaeshi/0f773ca9f8ef83bb7fdb8033c9768540.js"></script>
+
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="https://day.ongaeshi.me/20220731">
+        Obsidianでつなげる情報管理術を読んだ
+      </a>
+    </h1>
+
+    <!-- <span class="post-date">31 Jul 2022</span> -->
+    <!-- <span class="post-date">2022-07-31</span> -->
+    <!-- <span class="post-date">2022/07/31</span> -->
+    <span class="post-date">2022年07月31日</span>
+
+    <p><a href="https://www.amazon.co.jp/dp/B0B4K499F4">Obsidianでつなげる情報管理術 - Pouhon</a></p>
+
+<p>Kindle Unlimitedに入ったので、Obsidianで検索して目次見てよさそうな本を端から読んでいる。その中でもこの本はとても参考になる箇所が多かった。</p>
+
+<p>特に前後のデイリーログを自動でつなげてくれるTemplaterプラグインが大変便利。フォルダ構成も大分真似している。</p>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="https://day.ongaeshi.me/20220724">
+        ziglearnを読む
+      </a>
+    </h1>
+
+    <!-- <span class="post-date">24 Jul 2022</span> -->
+    <!-- <span class="post-date">2022-07-24</span> -->
+    <!-- <span class="post-date">2022/07/24</span> -->
+    <span class="post-date">2022年07月24日</span>
+
+    <p><a href="https://ziglearn.org/chapter-1/">https://ziglearn.org/chapter-1/</a></p>
+
+<ul>
+  <li>基本はCに近代言語のエッセンス(式になるifやswitch、パターンマッチなど)が入ったような印象</li>
+  <li>関数よ引数はコピー渡しのみなので書き換えるときはポインタ型使う？</li>
+  <li>error構文が独特、try-catchキーワードは使うけど中身は別物(goに近い？)</li>
+  <li>unreachableが専用構文で便利</li>
+  <li>ポインタのデリファレンスが<code class="language-plaintext highlighter-rouge">p.*</code>でメソッド呼びみたい</li>
+</ul>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="https://day.ongaeshi.me/20220722">
+        dayのREADMEをもう少し分かりやすくしたい
+      </a>
+    </h1>
+
+    <!-- <span class="post-date">22 Jul 2022</span> -->
+    <!-- <span class="post-date">2022-07-22</span> -->
+    <!-- <span class="post-date">2022/07/22</span> -->
+    <span class="post-date">2022年07月22日</span>
+
+    <p>格闘中。</p>
+
+<p><a href="https://github.com/ongaeshi/day/issues/4">https://github.com/ongaeshi/day/issues/4</a></p>
+
+<p>大分よくなった気がする。(例を作るのが重要だったかも)</p>
+
+<p><a href="https://github.com/ongaeshi/day/blob/main/README.md">day/README.md</a></p>
+
+<p><img src="https://i.gyazo.com/thumb/640/52db1e13b41fc226b33f5202b2143eb2.png" alt="" /></p>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="https://day.ongaeshi.me/20220721">
+        dayのモバイルからの編集を改善したい
+      </a>
+    </h1>
+
+    <!-- <span class="post-date">21 Jul 2022</span> -->
+    <!-- <span class="post-date">2022-07-21</span> -->
+    <!-- <span class="post-date">2022/07/21</span> -->
+    <span class="post-date">2022年07月21日</span>
+
+    <p>SafariからWebインターフェース経由で編集しているのだが、もう少しよい方法がないか検索中。TextwellからAPI叩こうと思っていたが、公式アプリがあったのでまずはこれを試してみることに。</p>
+
+<ul>
+  <li><a href="https://apps.apple.com/jp/app/github/id1477376905">「GitHub」をApp Storeで</a></li>
+</ul>
+
+<p>(試してみた) 残念、編集できないや。しかしIssueが大分見やすいのでこれはこれで使いそう。</p>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="https://day.ongaeshi.me/20220720">
+        読む力最新スキル大全を買った
+      </a>
+    </h1>
+
+    <!-- <span class="post-date">20 Jul 2022</span> -->
+    <!-- <span class="post-date">2022-07-20</span> -->
+    <!-- <span class="post-date">2022/07/20</span> -->
+    <span class="post-date">2022年07月20日</span>
+
+    <p><a href="https://www.amazon.co.jp/dp/4492046860">https://www.amazon.co.jp/dp/4492046860</a></p>
+
+<ul>
+  <li>筆者の情報の剪定、収集、メモ、展開、心構えについて一通りまとまった本</li>
+  <li>今、RSSリーダーとPocketの使い方を真似している最中</li>
+  <li>元々inoreaderとpocketは使っていたんだけど、Pocketに貯めても結局見ないで捨てたりしてしまっていたので改善したい気持ちがあった</li>
+</ul>
+
+<p>こんな感じになった。</p>
+
+<h2 id="rssリーダーとpocketの使い分け">RSSリーダーとPocketの使い分け</h2>
+<ol>
+  <li>RSSリーダーでは極力見出しだけを見てpocketに放り込む(キーボードのy)だけにする</li>
+  <li>別のターンでPocketを開いたら記事を読んで既読にしていく(その都度ページ開かずに極力Pocket内で読む、広告も出ないし読み込み速度も早い)</li>
+  <li>英語記事の場合はまず無条件でgoogle翻訳のウェブ翻訳に入れてざっと日本語で読み、ちゃんと読みたい箇所は原文を当たる</li>
+</ol>
+
+<p>RSSリーダーではPocketに放り込むのに集中、Pocketはどんどん記事を読むことに集中(リンク先開かない)、とタスクを分けることで大分やりやすくなった。</p>
+
+<h2 id="メモアプリの使い分け">メモアプリの使い分け</h2>
+<p>基本1ポケット思想で1つのアプリにテキストを極力集約するようにしていたんだけど、自分の概念をまとめるメモと、Webクリップのような用途が違うものを無理やり1つのアプリで管理しようとするとかえって面倒。今こんな感じにしてる。</p>
+
+<ul>
+  <li>Obsidian … メインメモ、自分が思ったことや気が付いたことを記録、読書メモもここ</li>
+  <li>Scrapbox … Obsidianメモが手元にないときのメモを記録、複数人で共有したり公開したいメモを置くのにも便利</li>
+  <li>Google Keep … Webクリップ用(notionとどちらがよいかは試し中)</li>
+</ul>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="https://day.ongaeshi.me/20220719">
+        はてなブログでdayを紹介する
+      </a>
+    </h1>
+
+    <!-- <span class="post-date">19 Jul 2022</span> -->
+    <!-- <span class="post-date">2022-07-19</span> -->
+    <!-- <span class="post-date">2022/07/19</span> -->
+    <span class="post-date">2022年07月19日</span>
+
+    <p><a href="https://ongaeshi.hatenablog.com/entry/day-blog-system">毎日簡単に更新できてサクサク閲覧できるブログシステムを作った - ブログのおんがえし</a></p>
+
+<p>とりあえずひと段落かな。ここまで大体20日位かかってる。(そういうのもdayのおかげで大分わかりやすくなった)</p>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="https://day.ongaeshi.me/20220718">
+        dayのREADMEを書く
+      </a>
+    </h1>
+
+    <!-- <span class="post-date">18 Jul 2022</span> -->
+    <!-- <span class="post-date">2022-07-18</span> -->
+    <!-- <span class="post-date">2022/07/18</span> -->
+    <span class="post-date">2022年07月18日</span>
+
+    <p>画像をgyazoにペタペタ貼って分かりやすくする。分かりやすく書こうとすると結構時間がかかる。</p>
+
+<p><a href="https://github.com/ongaeshi/day/blob/main/README.md">https://github.com/ongaeshi/day/blob/main/README.md</a></p>
+
+<p><img src="https://i.gyazo.com/thumb/640/d9ed125f875c12e0a7c8ff3875544183.png" alt="README.md" /></p>
+
+<p>今はGitHubにtemplateという機能があって、forkしなくてもレポジトリの内容を簡単にコピーできるようになっていて便利。ongaeshi/dayもその仕組みを利用した。</p>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="https://day.ongaeshi.me/20220716">
+        dayレポジトリをimportして独自のブログを立てる
+      </a>
+    </h1>
+
+    <!-- <span class="post-date">16 Jul 2022</span> -->
+    <!-- <span class="post-date">2022-07-16</span> -->
+    <!-- <span class="post-date">2022/07/16</span> -->
+    <span class="post-date">2022年07月16日</span>
+
+    <p><a href="https://github.com/ongaeshi/day/issues/2">https://github.com/ongaeshi/day/issues/2</a>で作業中。</p>
+
+<p>実験で<a href="https://todaymusic.ongaeshi.me/">today musci</a> というサイトをデプロイしているが、<br />
+全ての作業がWebインターフェースだけで完結するので大分楽。<br />
+SpotifyやYouTubeの埋め込みもWebインターフェースからできる。<br />
+ローカルにGitレポジトリはcloneしないで済んでいる。</p>
+
+<p>次はこの作業履歴を元にREADMEを書く。</p>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="https://day.ongaeshi.me/20220715">
+        dayブログシステムを誰でも使えるようにする
+      </a>
+    </h1>
+
+    <!-- <span class="post-date">15 Jul 2022</span> -->
+    <!-- <span class="post-date">2022-07-15</span> -->
+    <!-- <span class="post-date">2022/07/15</span> -->
+    <span class="post-date">2022年07月15日</span>
+
+    <p>最小限構成のレポジトリを作成中。forkしてWebから設定ファイル書き換えてコミットすればGitHub Actionsが走ってデプロイされるようになっている。</p>
+
+<ol>
+  <li><a href="https://github.com/ongaeshi/day">https://github.com/ongaeshi/day</a> をfork</li>
+  <li><code class="language-plaintext highlighter-rouge">_config.yml</code>書き換えてコミット(Web UI経由でOK)</li>
+  <li>GitHub Actionsが終わるまで数分待つ…</li>
+  <li>GitHub Pagesのブランチ設定をgh-pagesに変更</li>
+</ol>
+
+<h2 id="数分後">数分後…</h2>
+<p><a href="https://ongaeshi.github.io/day/">https://ongaeshi.github.io/day/</a> がデプロイされる。</p>
+
+<p><img src="https://i.gyazo.com/thumb/320/d53f693f5ececdb67a92a98c26a7ee18.png" alt="day blog sample" /></p>
+
+<p>もうちょっとREADMEの調整して分かりやすくする。 <a href="https://github.com/ongaeshi/day/issues/1">https://github.com/ongaeshi/day/issues/1</a></p>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="https://day.ongaeshi.me/20220714">
+        zigのインストール
+      </a>
+    </h1>
+
+    <!-- <span class="post-date">14 Jul 2022</span> -->
+    <!-- <span class="post-date">2022-07-14</span> -->
+    <!-- <span class="post-date">2022/07/14</span> -->
+    <span class="post-date">2022年07月14日</span>
+
+    <p>流行っているからHello Worldまでやった。zipファイルをダウンロード＆解凍して(ファイル数多いのでまぁまぁ時間かかる)＆PATH通せばOK。</p>
+
+<p>zig buildすると裏で(インストールした覚えのない、多分zigのzip中に含まれている)LLVMが走ってネイティブバイナリが生成されるのはなかなか楽しい。</p>
+
+<p><a href="https://ziglang.org/learn/getting-started/">https://ziglang.org/learn/getting-started/</a></p>
+
+<p>初見はgolangにGCがないやつ、もしくはRustよりは簡単なBetter Cという印象だけど、もう少し触ってみないと本当のところは分からない。</p>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="https://day.ongaeshi.me/20220713">
+        AirPodsの片耳が充電できない
+      </a>
+    </h1>
+
+    <!-- <span class="post-date">13 Jul 2022</span> -->
+    <!-- <span class="post-date">2022-07-13</span> -->
+    <!-- <span class="post-date">2022/07/13</span> -->
+    <span class="post-date">2022年07月13日</span>
+
+    <p>ケースにぽいっと入れておくとたまに右耳だけ充電できていないときがある。電源もOFFにならないので次に聴くときに充電が切れているのが辛い。調べてもあんまりよい情報が見つからないので自力で解決策を模索中。</p>
+
+<p><img src="https://i.gyazo.com/thumb/240/077747a2753b6cb9988bdf5d50647a43.jpg" alt="片耳が充電できていないときのiPhoneのステータス画面" /></p>
+
+<ol>
+  <li>ケースの中のホコリを綿棒で定期的に取る</li>
+  <li>接触位置が悪いらしくケースに入れたときにちょっと奥側に倒したりして調整</li>
+  <li>ケースのオレンジランプが付いたらOK、付かなかったら充電されていない</li>
+  <li>AirPodsが充電されているときは<strong>ケースを空けておけば</strong>(ここ重要)iPhoneのステータス画面で確認できるので心配なときは確認する(写真は失敗している状態)</li>
+</ol>
+
+<p>これで大分事故は減った気がする。バッテリーはまだ劣化していない(最初バッテリーが劣化したのだと勘違いしていた)ようなのでもう少し使いたい。</p>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="https://day.ongaeshi.me/20220712">
+        dayブログシステムの汎用化
+      </a>
+    </h1>
+
+    <!-- <span class="post-date">12 Jul 2022</span> -->
+    <!-- <span class="post-date">2022-07-12</span> -->
+    <!-- <span class="post-date">2022/07/12</span> -->
+    <span class="post-date">2022年07月12日</span>
+
+    <p>基本的な機能は入ったので、
+forkすれば誰でも自分のブログを始められるようにしたい。
+とりあえず専用のレポジトリとdescriptionを設定。</p>
+
+<p><a href="https://github.com/ongaeshi/day">https://github.com/ongaeshi/day</a></p>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="https://day.ongaeshi.me/20220711">
+        プロを目指すためのTypeScript入門を読んだ
+      </a>
+    </h1>
+
+    <!-- <span class="post-date">11 Jul 2022</span> -->
+    <!-- <span class="post-date">2022-07-11</span> -->
+    <!-- <span class="post-date">2022/07/11</span> -->
+    <span class="post-date">2022年07月11日</span>
+
+    <p><a href="https://gihyo.jp/book/2022/978-4-297-12747-3">https://gihyo.jp/book/2022/978-4-297-12747-3</a></p>
+
+<p>元々はJavaScriptやTypeScriptのモジュールシステムの説明が網羅的に記述されている書籍が欲しくて買った。7章がそれだが網羅的に記述されていて大満足。(ずっと断片的に使っていたのでrequireとimportの歴史的経緯とかが分かってすっきりした)</p>
+
+<p>それ以外だと特にオブジェクト型とユニオン型のところが面白かった。大体読んだのでサンプルコードも<a href="https://github.com/ongaeshi/typescript_practice/blob/master/src/t4_1_10.ts">写経し始めてる</a>。map, filter, every, some, find 辺りがそらで書けるようになると大分楽しいのだろうな。</p>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="https://day.ongaeshi.me/20220710">
+        Twitter Cardに対応した
+      </a>
+    </h1>
+
+    <!-- <span class="post-date">10 Jul 2022</span> -->
+    <!-- <span class="post-date">2022-07-10</span> -->
+    <!-- <span class="post-date">2022/07/10</span> -->
+    <span class="post-date">2022年07月10日</span>
+
+    <p><a href="https://day.ongaeshi.me/20220710">https://day.ongaeshi.me/20220710</a> をTwitterに貼り付けると以下のようなカードを表示してくれる。</p>
+
+<p><img src="https://i.gyazo.com/d4a05035edaa78154bd75d6579a11874.png" alt="twitter_card.png" /></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">jekyll twitter card</code>で検索すると色々出てくるので基本その通りにやればOK</li>
+  <li>Jekyllの情報は多くて助かる</li>
+  <li><code class="language-plaintext highlighter-rouge">_includes/head.html</code>のheadタグ内に<a href="https://github.com/ongaeshi/day_ongaeshi/blob/ef8432ec8ab642c501f65879e60fa325bf864957/_includes/head.html#L7-L10">meta情報を挿入する</a></li>
+  <li>descriptionのところは少し工夫していて、文章の先頭200文字を切り出して自動で設定するようになっている(<a href="https://ja.getdocs.org/jekyll-twitter-cards">参考</a>)</li>
+</ul>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="https://day.ongaeshi.me/20220709">
+        GitHub Pages にカスタムドメイン(HTTPS)を設定
+      </a>
+    </h1>
+
+    <!-- <span class="post-date">09 Jul 2022</span> -->
+    <!-- <span class="post-date">2022-07-09</span> -->
+    <!-- <span class="post-date">2022/07/09</span> -->
+    <span class="post-date">2022年07月09日</span>
+
+    <p>このページのURLを https://day.ongaeshi.me に変更した。</p>
+
+<p>GitHub Pages でカスタムドメインを設定する(かつHTTPS強制)には基本以下の手順が必要。</p>
+
+<ol>
+  <li>カスタムドメインの設定</li>
+  <li>Enforce HTTPSをON</li>
+  <li>ドメイン側でDNSレコードの設定</li>
+</ol>
+
+<p><img src="https://i.gyazo.com/thumb/640/9f5c13c72c4c58fedf8b08fc970f7543.png" alt="Custom domain" /></p>
+
+<p>設定してもしばらくはアクセスしても「危険なWebサイトです」とか言われてして見えなかったりするので5分位は我慢。<br />
+※ 多分裏でLet’s Encryptにアクセスして<a href="https://qiita.com/foobaron/items/cd9cfc403defa706372b">登録手続きしてくれている</a>のだと思う、ありがたい。</p>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="https://day.ongaeshi.me/20220708">
+        チ。―地球の運動について― (8)
+      </a>
+    </h1>
+
+    <!-- <span class="post-date">08 Jul 2022</span> -->
+    <!-- <span class="post-date">2022-07-08</span> -->
+    <!-- <span class="post-date">2022/07/08</span> -->
+    <span class="post-date">2022年07月08日</span>
+
+    <p><a href="https://shogakukan-comic.jp/book?isbn=9784098613175">https://shogakukan-comic.jp/book?isbn=9784098613175</a></p>
+
+<ul>
+  <li>「チ」をとりまく名もなき人たちの群像劇が完結</li>
+  <li>「チ」には色々な意味が込められているが私は「知」にまつわるエピソードに一番わくわくした</li>
+  <li>最後は１周しただけだとちゃんと分からないところがあったが、それをどのように解釈していくかも含めての物語なのだと思った(他の人の考察読んだらまぁ大体分かった)</li>
+  <li>1巻が面白い選手権だと歴代でも優勝なので、興味がある人は是非1巻の最後まで読んでみてほしい</li>
+</ul>
+
+<p>ところで改めて1巻の帯読み直してみると、岩明均先生、オチが予想できてます…？(すごい)</p>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="https://day.ongaeshi.me/20220707">
+        記事の自動生成できた！
+      </a>
+    </h1>
+
+    <!-- <span class="post-date">07 Jul 2022</span> -->
+    <!-- <span class="post-date">2022-07-07</span> -->
+    <!-- <span class="post-date">2022/07/07</span> -->
+    <span class="post-date">2022年07月07日</span>
+
+    <p>このブログの記事は全て <a href="https://github.com/ongaeshi/day_ongaeshi/blob/master/_days/2022.md">https://github.com/ongaeshi/day_ongaeshi/blob/master/_days/2022.md</a> から作れるようになった。面倒なヘッダ情報の設定もこれで不要になる。</p>
+
+<p><a href="https://github.com/ongaeshi/day_ongaeshi/blob/master/days_to_posts.rb">days_to_posts.rb</a>スクリプトを<a href="https://github.com/ongaeshi/day_ongaeshi/blob/master/.github/workflows/github-pages.yml#L12-L15">GitHub Actions</a>を使って実行して<code class="language-plaintext highlighter-rouge">_days</code>以下のMarkdownを<code class="language-plaintext highlighter-rouge">_posts</code>に分割する仕組み。</p>
+
+<p>1ファイルブックマークしておけばOKなので大分楽になった。</p>
+
+<p><img src="https://i.gyazo.com/thumb/480/cc79712507771acd711dbc2d28f3d8cc.jpg" alt="2022.md" /></p>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="https://day.ongaeshi.me/20220706">
+        シンプルなMarkdownからJekyllのpostsを自動生成する
+      </a>
+    </h1>
+
+    <!-- <span class="post-date">06 Jul 2022</span> -->
+    <!-- <span class="post-date">2022-07-06</span> -->
+    <!-- <span class="post-date">2022/07/06</span> -->
+    <span class="post-date">2022年07月06日</span>
+
+    <p><a href="https://github.com/ongaeshi/day_ongaeshi/issues/3">https://github.com/ongaeshi/day_ongaeshi/issues/3</a>でチャレンジ中。</p>
+
+<p>最初プラグインのGeneratorを使おうとしたけど、pagesは作れるけどpostsを作る方法は見つからなかった。(なんとなく難しそうな印象)</p>
+
+<p>ということでGitHub ActionsでRubyスクリプトを事前に実行しておく作戦を次に検討中。 <br />
+<a href="https://github.com/marketplace/actions/setup-ruby-jruby-and-truffleruby">ruby/setup-ruby</a> を使えばRubyスクリプトの実行は比較的簡単にできそう。</p>
+
+  </div>
+  
+</div>
+
+<div class="pagination">
+  
+    <a class="pagination-item older" href="https://day.ongaeshi.me/page2">Older</a>
+  
+  
+    <span class="pagination-item newer">Newer</span>
+  
+</div>
+
+      </div>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+    <script src='/public/js/script.js'></script>
+  </body>
+</html>
